@@ -18,16 +18,15 @@
     /* background-color: gray; */
 }
 #cards{
-    width: 100%;
-    /* height: 20%; */
+     width: 100%;
+    /* height: 100%;  */
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
     background-color: gray;
 }
-#div1{
-    width: 20%;
-    height: 10%;
-    background-color: aqua;
+#div1 #div2 #div3 #div4 #div5 #div6 #div7 #div8 {
+    width: 40px;
+    /* height: 40px; */
 }
