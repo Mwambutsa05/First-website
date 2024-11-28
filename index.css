@@ -10,7 +10,7 @@
 #header {
     display: flex;
     justify-content:space-between ;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 #cards{
     /* background: #d47d7d; */
@@ -31,10 +31,10 @@
 }
 img {
     width: 70%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 #about{
-    background: #d47d7d;
+    /* background: #d47d7d; */
     padding-top: 100px;
     display: flex;
     flex-direction: column;
@@ -46,9 +46,18 @@ img {
 }
 #footer{
     background-color: gray;
-    display: flex;
-    align-items: center;
-    justify-items: center;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer div{
+    width: 100%; 
+    background-color: aqua;
+    /* display: flex;
+    flex-wrap: wrap; */
+    img{
+        width: 10%;
+    }
     
 }
+
