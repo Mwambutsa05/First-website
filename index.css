@@ -13,24 +13,24 @@
     /* background-color: aquamarine; */
 }
 #cards{
-    /* background: #d47d7d; */
     padding-top: 100px;
     display: flex;
     flex-wrap: wrap;
+    /* align-items: center;
+    justify-content: center; */
     width: 100%;
-    /* justify-content: space-between; */
+    margin: 50px;
+    
 }
 #cards div{
-    /* background: white;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
     width: 25%;
     justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    /* margin: 5px; */
 }
 img {
-    width: 70%;
+    width: 80%;
     /* background-color: blue; */
 }
 #about{
